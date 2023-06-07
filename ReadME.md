@@ -3,7 +3,7 @@
 - Date: June 7, 2023
 - Author: Janarthanan kugathasan
 
-### Introduction
+<u> ### Introduction </u>
 
 Managing virtual machines (VMs) and disks in a cloud environment is crucial for effective infrastructure management. In this blog post, we will explore a Python script that retrieves VM and disk information from a Google Cloud Platform (GCP) project. This script utilizes the Google Cloud Python SDK to interact with the GCP APIs and collect relevant data.
 
