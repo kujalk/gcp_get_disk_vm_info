@@ -1,20 +1,23 @@
-Python script to Get VMs and Disk Information from a GCP Project
-Date: June 7, 2023
-Author: kujalk
+## Python script to Get VMs and Disk Information from a GCP Project
 
-Introduction
+- Date: June 7, 2023
+- Author: Janarthanan kugathasan
+
+### Introduction
+
 Managing virtual machines (VMs) and disks in a cloud environment is crucial for effective infrastructure management. In this blog post, we will explore a Python script that retrieves VM and disk information from a Google Cloud Platform (GCP) project. This script utilizes the Google Cloud Python SDK to interact with the GCP APIs and collect relevant data.
 
-Script Overview
+### Script Overview
+
 The script consists of several functions and utilizes the Google Cloud Python SDK to interact with GCP services. Let’s take a closer look at the key components of the script:
 
-Importing Required Libraries
+#### Importing Required Libraries
 The script begins by importing the necessary libraries, including the Google Cloud SDK, datetime, csv, argparse, and collections.
 
-Authentication
+#### Authentication
 The script assumes the authentication details are already configured using environment variables. Ensure that you have set the GOOGLE_APPLICATION_CREDENTIALS environment variable with the path to your service account key file.
 
-Retrieving Disk Logging Information
+#### Retrieving Disk Logging Information
 The get_disk_logging() function collects logging information related to disks in the GCP project. This is used to collect the creator information of the disk.
 
 Retrieving VM Logging Information
